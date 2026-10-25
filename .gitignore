@@ -1,0 +1,8 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Nothing generated should creep in here; this repo is documents and evidence only
+*.pdf
