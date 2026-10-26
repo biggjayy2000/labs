@@ -107,11 +107,12 @@ Treating a broken command as a finding would have been the easiest mistake in th
    started with plain network adjacency.
 6. Correlate offensive test timestamps against Windows security events to prove monitoring coverage.
 
-## Next phases
+## The rest of the engagement
 
-Correlating the Kerberos enumeration against Windows Security event logs on `DC01`; comparing what an
-authenticated standard user can enumerate against the anonymous baseline; reviewing a short list of
-directory security settings; then consolidating everything into a findings-and-retest report.
+This page covers the anonymous phase. The full lab — authenticated LDAP, group and delegation
+enumeration, SYSVOL and group policy extraction, and Kerberos SPN testing — is in
+**[ad-home-lab](https://github.com/biggjayy2000/ad-home-lab)**, with all 29 screenshots and the two
+Kerberos failures documented rather than hidden.
 
 ## Skills this demonstrates
 
@@ -122,5 +123,4 @@ from a confirmed vulnerability.
 ---
 
 *Original document with the raw terminal output: [`Active Directory Red-Team Lab`](https://docs.google.com/document/d/1WFX0furhPBig9N7AEazqL2_bbrtz8A-XqqKO8z5lnHY/edit)
-in the Drive archive. Screenshots for this lab were placeholders in the source document and are not
-reproduced here.*
+in the Drive archive. Screenshots are in the [full lab repository](https://github.com/biggjayy2000/ad-home-lab).*

@@ -18,6 +18,9 @@ writeup are claiming more than the evidence supports and claiming nothing at all
 | 5 | [File permissions in Linux](05-linux-file-permissions.md) | Reading permission strings and enforcing least privilege | `ls`, `chmod` |
 | 6 | [Password hash auditing](06-password-hash-auditing.md) | Dictionary attack against a self-created SHA-256 hash | Hashcat, Kali |
 
+Lab 1 is the one-page summary; its full evidence — 29 screenshots, authenticated enumeration, SYSVOL and
+Kerberos testing — lives in [biggjayy2000/ad-home-lab](https://github.com/biggjayy2000/ad-home-lab).
+
 ## What the collection shows
 
 **Both sides of the same network.** Lab 1 is offensive: what can be learned about a domain controller
