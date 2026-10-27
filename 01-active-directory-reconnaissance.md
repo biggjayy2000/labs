@@ -9,7 +9,7 @@
 | Target | `DC01` — Windows Server domain controller, `192.168.56.10` |
 | Domain | `corp.local` (NetBIOS `CORP`) |
 | Test date | 10 October 2026 |
-| Status | Phase 1 complete — later phases planned |
+| Status | Anonymous phase complete — authenticated and Kerberos phases in [ad-home-lab](https://github.com/biggjayy2000/ad-home-lab) |
 
 ## Objective
 
